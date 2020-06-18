@@ -1,0 +1,10 @@
+<launch>
+
+	<!-- MAX7219 DISPLAY -->
+	<node	pkg="common_spi_application" 
+		name="box_display" 
+		type="box_display.py" >
+	<!-- 	output="screen"> -->
+	</node>
+
+</launch>
