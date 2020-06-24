@@ -34,7 +34,7 @@ class BoxIDDisplay:
 		self.device.contrast(5)
 		self.virtual = viewport(self.device, width=32, height=16)
 
-		rospy.on_shutdown(self.shutdown)
+#		rospy.on_shutdown(self.shutdown)
 
 		self.sensor_received = False
 		self.code_received = False
